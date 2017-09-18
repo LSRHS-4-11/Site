@@ -1,0 +1,43 @@
+body {
+  color:white;
+  background-color: deepskyblue;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 20pt;
+}
+
+h1{
+  color:red;
+  font-family:"futura", serif;
+  font-size: 42pt;
+}
+
+h2{
+font-size: 32pt;
+color:yellow;
+}
+h3{
+font-size: 32pt;
+color:pink;
+}
+h4{
+font-size: 32pt;
+color:green;
+}
+h5{
+font-size: 32pt;
+color:orange;
+}
+h6{
+font-size: 32pt;
+color:maroon;
+}
+h7{
+font-size: 32pt;
+color:gold;
+}
+h8{
+font-size: 32pt;
+color:purple;
+}
+
+img{padding:10px;}
