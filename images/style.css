@@ -1,0 +1,14 @@
+body {
+  background-color: skyblue;
+  font-family: 'fragola';
+  font-size: 25pt;
+}
+h2{
+font-size: 32pt;
+color:red;
+}
+p{  color:yellow;
+  font-family:"futura", serif;
+  font-size: 16pt;}
+h1{ color:purple;
+    font-size: 48pt;}
