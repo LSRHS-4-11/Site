@@ -1,0 +1,32 @@
+body {
+  color:darkred;
+  background-color: black;
+  font-family: 'Nosifer', cursive;
+  font-size: 20pt;
+}
+table {
+  width:100%;
+}
+td {
+  width:50%;
+  padding:20px;
+}
+img{
+  width:600px;
+}
+p{
+  font-size:24pt;
+}
+li{
+  font-size:20pt;
+  margin: 15px 0;
+}
+ul{
+  list-style-type: none;
+}
+a {
+    color: orangered;
+}
+a:hover {
+    color: maroon;
+}
