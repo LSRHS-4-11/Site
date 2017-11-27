@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  </head>
+  <body>
+    <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+        font-family: Arial;
+    }
+
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+    }
+
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: red;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    </style>
+    </head>
+    <body>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Links
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="lodgings.html">Lodgings</a>
+          <a href="attractions.html">Attractions</a>
+          <a href="location.html">Location</a>
+          <a href="testimonial.html">Testimonials</a>
+          <a href="citations.pdf">Citations</a>
+        </div>
+      </div>
+    </div>
+   <div id="banner"><h1>Sudbury</h1></div>
+   <div id="box1"><img src="sudbury.jpg" style="width:300px;height:200px;"></div>
+   <div id="box2"><img src="church.jpg" style="width:300px;height:200px;"></div>
+   <div id="box3"><img src="gristmill.jpg" style="width:300px;height:200px;"></div>
+   <div id="box4"><img src="waysideinn.jpg" style="width:300px;height:200px;"></div>
+   <p1>Welcome to Sudbury, a town in Middlesex County, Massachusetts, United States. At the 2010 census, it had a population of 17,659. The town, located in Boston's MetroWest, has a rich colonial history.</p1>
+</body>
+</html>
